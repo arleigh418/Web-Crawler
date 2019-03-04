@@ -56,9 +56,7 @@ for yahoo_all in yahoo_news:
         g1.write('\n')
         g1.write('=======================================================')
         g1.write('\n')  
-    # except:
-    #     continue
-        
+    
 
 
 
