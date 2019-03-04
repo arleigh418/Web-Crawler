@@ -41,7 +41,7 @@ for x in ptt:
         try:
                 print(title)
         except UnicodeEncodeError:
-                print('Unocode_error')
+                print('Unicode_error')
 
         
         # ptt_url.append(x.select('href'))
