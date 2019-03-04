@@ -35,7 +35,7 @@ for yahoo_all in yahoo_news:
     single_news = BeautifulSoup(news.text,'html.parser')
     single_news_str = str(single_news)
     
-    for yahooo in single_news.find_all('table',{'class':'yui-text-left'},limit=1): #若是沒必要分別存標題、時間等等，可以直接 x = yahooo.text(舉例)，並write()，其餘可以全數刪除。
+    for yahooo in single_news.find_all('table',{'class':'yui-text-left'},limit=1): #若是沒必要分別存標題、時間等等，可以採用更簡單的方式。
 
         title = yahooo.find('h1',{'class':'mbody1 style1'}).text
         date =yahooo.find('span',{'class':'t1'}).text
