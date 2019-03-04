@@ -1,5 +1,5 @@
 # Web-crawler-with-Selenium
-This code is for web crawler with Selenium
+This code is for web crawler with Selenium,you should download chromedriver first
 
 Important! If this web update, it may need to be modified.
 
