@@ -3,7 +3,7 @@ This code is for web crawler with Selenium,you should download chromedriver firs
 
 Important! If the web update, it may need to be modified.
 
-It is a simple example for web crawler with selenium.This example is 
+There are some examples for web crawler with selenium.These examples are 
 
 https://news.cnyes.com/news/cat/tw_stock  (鉅亨網_台股) -->Gihun_bug
 
