@@ -24,7 +24,7 @@ for x in all_url:
 
 real_url.remove('/ancient_proses/query')
 real_url.remove('http://qqread.qq.com')
-real_url.remove('/ancient_proses/query')
+
 print(real_url)
 c= 0
 article = []
