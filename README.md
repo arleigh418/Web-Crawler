@@ -21,7 +21,7 @@ unrestricted version,but it cost lots of time,I'm tryinge to let it better.Pleas
 
 
 
-## Here are some exceptions that no use selenium.These examples are 
+## No Selenium
 
 #### https://fanti.dugushici.com/ancient_proses/query?page=1&q%5Bprose_series_id_eq%5D=5 (爬取七言律詩) -->seven_poetry
 
