@@ -6,6 +6,7 @@ Important! If the web update, it may need to be modified.
 There are some examples for web crawler with selenium.These examples are 
 
 https://news.cnyes.com/news/cat/tw_stock  (鉅亨網_台股) -->Gihun_bug
+
 *This Gihun_Bug is limited by this website , so it can just get almost 2 month news by selenium , but I provide another 
 unrestricted version,but it cost lots of time,I'm tryinge to let it better.Please 
 
