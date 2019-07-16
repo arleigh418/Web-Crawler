@@ -29,7 +29,7 @@ for i in gihun:
         count+=1
         if soup.find('h1').text =='404':
             non+=1
-            pass
+            continue
         else:
             title.append(soup.find('h1').text)
             url.append(i)
@@ -43,7 +43,7 @@ for i in gihun:
             print('錯誤網址 : ',non ,'| 正確網址 : ',correct)
             print('\n')
        
-    except AttributeError:
+    except:
        
         non+=1
         count+=1
@@ -51,7 +51,7 @@ for i in gihun:
         
         print('錯誤網址 : ',non ,'| 正確網址 : ',correct)
         print('\n')
-        pass
+        continue
    
 print(len(title))
 print(len(date))
