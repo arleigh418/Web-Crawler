@@ -1,11 +1,9 @@
 # Web-crawler
 This code is for web crawler, and some use Selenium , you should download chromedriver first
 
-Important! If the web update, it may need to be modified.
+Important! If the web update, it may need to be modified. If I haven't corrected it yet , please repair it by yourself.
 
-There are some examples for web crawler with selenium.These examples are 
 
-Notice : If  website update,these Web-crawlers must get wrong , If I haven't corrected it yet , please repair it by yourself.
 
 ## Selenium 
 #### https://news.cnyes.com/news/cat/tw_stock  (鉅亨網_台股) -->Gihun_bug
