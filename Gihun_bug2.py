@@ -28,6 +28,7 @@ for i in gihun:
     try:
         count+=1
         if soup.find('h1').text =='404':
+            non+=1
             pass
         else:
             title.append(soup.find('h1').text)
