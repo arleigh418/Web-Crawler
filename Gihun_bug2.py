@@ -6,7 +6,7 @@ from selenium import webdriver
 import time
 import pandas as pd
 
-start = 4084500 #(2017/04)
+start = 4159000 #(2017/07)
 end   = 4359000 #(2019/07)
 non = 0
 correct = 0
@@ -29,13 +29,17 @@ for i in gihun:
         count+=1
         if soup.find('h1').text =='404':
             non+=1
+            print('處理了:',(count/(end-start))*100,'%')
+        
+            print('錯誤網址 : ',non ,'| 正確網址 : ',correct)
+            print('\n')
             continue
         else:
             title.append(soup.find('h1').text)
             url.append(i)
    
             date.append(soup.find('time').text)
-      
+            # print(soup.find('time').text)
             content.append(soup.find('div',{'class':'_1UuP'}).text)
             correct+=1
             print('處理了:',(count/(end-start))*100,'%')
