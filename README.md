@@ -23,6 +23,6 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 #### https://fanti.dugushici.com/ancient_proses/query?page=1&q%5Bprose_series_id_eq%5D=5 (爬取七言律詩) -->seven_poetry
 
 #### https://www.cnyes.com/ (鉅亨網) -->Gihun_bug2
-This version can get more news(example is 2017/07-2019/07) , but there is a problem that this crawler cost lots of time.
+This version can get more news(example is 2017/07-2019/07) , but there is a problem that this crawler cost realy lots of time.
 
 
