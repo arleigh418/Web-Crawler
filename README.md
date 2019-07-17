@@ -8,7 +8,7 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 ## Selenium 
 #### https://news.cnyes.com/news/cat/tw_stock  (鉅亨網_台股) -->Gihun_bug
 
-*This Gihun_Bug is limited by this website , so it can just get almost 2 month news by selenium, and you also need to choose date by yourself first  .  I provide another unrestricted version , but it cost lots of time , I'm tryinge to let it better . Please refer Gihun_bug2.
+*This Gihun_Bug is limited by this website , so it can just get almost 2 month news by selenium, and you also need to choose date by yourself first  .  I provide another unrestricted version , but it cost lots of time , I'm tryinge to let it better , please refer Gihun_bug2.
 
 
 #### https://www.ptt.cc/bbs/facelift/index.html  (ptt_facelift版) -->ptt_bug
