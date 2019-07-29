@@ -1,4 +1,4 @@
-#Autor :  Arleigh Chaing
+#Autor :  Arleigh Chang
 
 import requests
 from bs4 import BeautifulSoup
