@@ -8,9 +8,6 @@ import pandas as pd
 import datetime
 
 
-
-
-
 def get_newsid(start,old):
     newsid = []
     while (start > 1502207999):
@@ -65,14 +62,18 @@ def get_content(newsid):
         res =  requests.get(x)
         soup = BeautifulSoup(res.text,'html.parser')
 
-        try: 
-            title.append(soup.find('h1').text)
-   
-            date_data.append(soup.find('time').text)
-            # print(soup.find('time').text)
-            content.append(soup.find('div',{'class':'_1UuP'}).text)
-            count +=1
-            print('處理了:',(count/len(newsid))*100,'%')
+        try:
+            if len(list(soup.find('div',{'class':'_1UuP'}).text)) ==0:
+                continue
+            elif len(list(soup.find('h1').text)) ==0 :
+                continue
+            else:
+                title.append(soup.find('h1').text)
+                date_data.append(soup.find('time').text)
+                # print(soup.find('time').text)
+                content.append(soup.find('div',{'class':'_1UuP'}).text)
+                count +=1
+                print('處理了:',(count/len(newsid))*100,'%')
        
         except:
             continue
@@ -92,8 +93,8 @@ def storge(title,date,content):
 
 #a month --> start - old =  2592000
 
-start = 1569599999  #target --> 2019/07/29 + one month
-old =  1567007999 
+start = 1567007999  #target --> 2019/07/29 + one month
+old =  1564415999 
 
 newsid = get_newsid(start,old)
 
