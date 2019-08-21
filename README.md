@@ -6,18 +6,18 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 
 
 ## Selenium 
-#### https://www.ptt.cc/bbs/facelift/index.html  (ptt_facelift版) -->ptt_bug
+#### https://www.ptt.cc/bbs/facelift/index.html  (ptt_facelift版) --> ptt_bug
 
 
-#### https://tw.stock.yahoo.com/news_list/url/d/e/N2.html?q=&pg=1 (Yahoo財經_台股) -->yahoo_bug
+#### https://tw.stock.yahoo.com/news_list/url/d/e/N2.html?q=&pg=1 (Yahoo財經_台股) --> yahoo_bug
 
 
 
 ## No Selenium
 
-#### https://fanti.dugushici.com/ancient_proses/query?page=1&q%5Bprose_series_id_eq%5D=5 (爬取七言律詩) -->seven_poetry
+#### https://fanti.dugushici.com/ancient_proses/query?page=1&q%5Bprose_series_id_eq%5D=5 (爬取七言律詩) --> seven_poetry
 
-#### https://www.cnyes.com/ (鉅亨網) -->Gihun_bug
+#### https://www.cnyes.com/ (鉅亨網) --> Gihun_bug
 
 
 
