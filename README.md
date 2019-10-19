@@ -19,5 +19,7 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 
 #### https://www.cnyes.com/ (鉅亨網) --> Gihun_bug
 
+#### https://www.ttpia.org.tw/zh-tw/vendor/all?&(台灣塑膠製品同業公會-Vendor list) --> ttpia
+
 
 
