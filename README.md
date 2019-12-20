@@ -23,6 +23,3 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 
 #### https://shopping.pchome.com.tw/ (PChome) --> pchome_bug
 
-#### https://shopee.tw/ (shopee) --> shopee_bug
-
-
