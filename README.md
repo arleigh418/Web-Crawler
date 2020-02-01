@@ -12,6 +12,8 @@ Important! If the web update, it may need to be modified. If I haven't corrected
 #### https://tw.stock.yahoo.com/news_list/url/d/e/N2.html?q=&pg=1 (Yahoo財經_台股) --> yahoo_bug
 
 
+#### https://www.jin10.com/price_wall/index.html (金10報價牆) --> Jin10.py
+
 
 ## No Selenium
 
