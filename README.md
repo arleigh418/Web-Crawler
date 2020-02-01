@@ -1,7 +1,7 @@
 # Web-crawler
 Web crawler, and some use Selenium , you should download chromedriver first
 
-Important! If the web update, it may need to be modified. If I haven't corrected it yet , please repair it by yourself.
+Important! If the web update, it may not work. If I haven't fixed it yet , please repair it by yourself.
 
 
 
