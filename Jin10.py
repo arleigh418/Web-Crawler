@@ -8,15 +8,16 @@ headers = {
     }
 driver = webdriver.Chrome()
 driver.get('https://www.jin10.com/price_wall/index.html')
-now = time.strftime("%Y-%m-%d %H:%M:%S")
-control_time = now[14:16]
-  
-soup = BeautifulSoup(driver.page_source,'html.parser')
-product = soup.find_all('h3',{'class':'jin-pricewall_list-item_name'})
-trade_price = soup.find_all('span',{'class':'J_last'})
-  
-target_trade_price = float(trade_price[47].text)  
+while True:
+    now = time.strftime("%Y-%m-%d %H:%M:%S")
+    control_time = now[14:16]
+    
+    soup = BeautifulSoup(driver.page_source,'html.parser')
+    product = soup.find_all('h3',{'class':'jin-pricewall_list-item_name'})
+    trade_price = soup.find_all('span',{'class':'J_last'})
+    
+    target_trade_price = float(trade_price[47].text)  
 
-print("商品:",product[47].text)
-print("成交價",str(target_trade_price))
-print("操作時間:",now)
+    print("商品:",product[47].text)
+    print("成交價",str(target_trade_price))
+    print("操作時間:",now)
