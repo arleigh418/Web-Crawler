@@ -12,7 +12,7 @@ Important! If the web update, it may not work. If I haven't fixed it yet , pleas
 #### https://tw.stock.yahoo.com/news_list/url/d/e/N2.html?q=&pg=1 (Yahoo財經_台股) --> yahoo_bug
 
 
-#### https://www.jin10.com/price_wall/index.html (金10報價牆) --> Jin10.py
+#### https://datacenter.jin10.com/market (金10報價牆) --> Jin10.py
 
 
 ## No Selenium
