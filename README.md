@@ -12,7 +12,7 @@ Important! If the web update, it may not work. If I haven't fixed it yet , pleas
 #### https://tw.stock.yahoo.com/news_list/url/d/e/N2.html?q=&pg=1 (Yahoo財經_台股) --> yahoo_bug (Updated in 2018)
 
 
-#### https://datacenter.jin10.com/market (金10報價牆) --> Jin10.py (2020)
+#### https://datacenter.jin10.com/market (金10報價牆) --> Jin10.py (Updated in 2020)
 
 #### https://www.twse.com.tw/zh/page/trading/fund/T86.html (台灣證交所 - 三大法人買賣超日報)--> TWSE.py (Updated in 2020/11)
 
